@@ -1,0 +1,30 @@
+// Customize CSS To Use Bootstrap & Own Style import
+
+/* import only the necessary Bootstrap files */
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+
+/* -------begin customization-------- */
+
+$theme-colors: (
+  primary: #6f23ff,
+  secondary: #ffd540
+);
+
+/* -------end customization-------- */
+
+/* finally, import Bootstrap to set the changes! */
+
+@import "../bootstrap/scss/bootstrap.scss";
+
+/* ----------- custom font import  ------------ */
+
+@import url("https://fonts.googleapis.com/css?family=Domine:400,700|Maven+Pro:400,500,700,900|Montserrat:400,500,600,700,900&display=swap");
+
+// font-family: 'Maven Pro', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Domine', serif;
+
+/* ------------ Self-stylying -------------- */
+
+@import "./style";
