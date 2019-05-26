@@ -10,20 +10,23 @@ a:focus {
   text-decoration: none;
 }
 
+.content {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 105;
+}
+
 #homepage {
   transform: skewY(-9deg);
   transform-origin: top left;
   padding-bottom: 160px;
 
   .content {
-    width: 100%;
     transform: skewY(9deg);
     transform-origin: top left;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    z-index: 105;
   }
 
   .container {
@@ -49,6 +52,7 @@ a:focus {
 
   #homepage-header {
     margin-top: 163px;
+    position: relative;
     z-index: 105;
 
     .head-line {
@@ -119,5 +123,61 @@ a:focus {
     bottom: -72px;
     left: 7.2vw;
     z-index: 100;
+  }
+}
+
+#life-changeing-experience {
+  position: relative;
+  background-color: var(--very-light-blue);
+  padding-bottom: 40px;
+  transform: skewY(-9deg);
+  transform-origin: top left;
+
+  .content {
+    transform: skewY(9deg);
+    transform-origin: top left;
+    background-color: var(--very-light-blue);
+  }
+
+  #life-changeing-experience-title {
+    background: url(../images/path-5185.svg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    resize: both;
+    padding: 23px 18px 15px;
+    margin: 46px 0 24px;
+    overflow: visible;
+  }
+
+  h2 {
+    font-family: "Domine";
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #life-changeing-experience-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 49px;
+  }
+
+  #life-changeing-selling-points {
+    h3 {
+      font-family: "Domine";
+      font-size: 1.125rem;
+      font-weight: bold;
+      line-height: 1.33;
+      margin: 37px 0 9px 0;
+      padding: 0 25px;
+      color: var(--gray-dark);
+    }
+
+    p {
+      padding: 0 25px;
+      margin-bottom: 59px;
+      line-height: 1.41;
+      font-size: 17px;
+      color: var(--gray);
+    }
   }
 }

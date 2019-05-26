@@ -11,6 +11,11 @@ $theme-colors: (
   secondary: #ffd540
 );
 
+:root {
+  --dusk: #3e396b;
+  --very-light-blue: #f8faff;
+}
+
 /* -------end customization-------- */
 
 /* finally, import Bootstrap to set the changes! */
