@@ -10,20 +10,46 @@ a:focus {
   text-decoration: none;
 }
 
-header {
-  nav {
-    z-index: 999;
+#homepage {
+  transform: skewY(-9deg);
+  transform-origin: top left;
+  padding-bottom: 160px;
+
+  .content {
+    width: 100%;
+    transform: skewY(9deg);
+    transform-origin: top left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 105;
   }
 
-  .logo {
-    font-family: "Maven Pro", sans-serif;
-    font-size: 38px;
-    font-weight: bold;
-    color: $white;
+  .container {
+    z-index: 100;
+  }
+
+  #homepage-navbar-container {
+    #homepage-navbar {
+      padding: 50px 0 0;
+
+      .container {
+        z-index: 105;
+
+        .logo {
+          font-family: "Maven Pro", sans-serif;
+          font-size: 38px;
+          font-weight: bold;
+          color: $white;
+        }
+      }
+    }
   }
 
   #homepage-header {
     margin-top: 163px;
+    z-index: 105;
 
     .head-line {
       font-family: "Domine", serif;
@@ -50,6 +76,7 @@ header {
 
   .student-typing {
     position: absolute;
+    box-sizing: border-box;
     max-width: 70vw;
     max-height: 793px;
     height: auto;
@@ -61,6 +88,10 @@ header {
       top: 100px;
       right: -200px;
     }
+
+    @media (max-width: 991.98px) {
+      top: 90px;
+    }
   }
 
   .half-loop {
@@ -70,6 +101,12 @@ header {
     top: 0;
     left: 0;
     z-index: 100;
+    max-width: 32.2vw;
+    width: 288px;
+    @media (min-width: 991.98px) {
+      max-width: 20.7vw;
+      width: 269px;
+    }
   }
 
   #header-square-1 {
