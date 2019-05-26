@@ -11339,18 +11339,40 @@ header .logo {
   font-family: "Maven Pro", sans-serif;
   font-size: 38px;
   font-weight: bold;
-  color: white;
+  color: #fff;
 }
 
 /* line 25, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-header .head-line {
+header #homepage-header {
+  margin-top: 163px;
+}
+
+/* line 28, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+header #homepage-header .head-line {
   font-family: "Domine", serif;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: bold;
   line-height: 1.27;
 }
 
-/* line 32, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 35, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+header #homepage-header .head-text {
+  font-size: 1.25rem;
+  line-height: 1.65;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+
+/* line 42, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+header #homepage-header button {
+  display: inline-block;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 0 14px 0;
+}
+
+/* line 51, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 header .student-typing {
   position: absolute;
   max-width: 70vw;
@@ -11361,13 +11383,36 @@ header .student-typing {
   z-index: 100;
 }
 
-/* line 42, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+@media (max-width: 767.98px) {
+  /* line 51, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+  header .student-typing {
+    max-width: 120vw;
+    top: 100px;
+    right: -200px;
+  }
+}
+
+/* line 66, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 header .half-loop {
   position: absolute;
   max-height: 100%;
   height: auto;
   top: 0;
   left: 0;
+  z-index: 100;
+}
+
+/* line 75, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+header #header-square-1 {
+  top: 161px;
+  left: 42vw;
+  z-index: 100;
+}
+
+/* line 81, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+header #header-square-2 {
+  bottom: -72px;
+  left: 7.2vw;
   z-index: 100;
 }
 

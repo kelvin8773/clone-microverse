@@ -19,14 +19,33 @@ header {
     font-family: "Maven Pro", sans-serif;
     font-size: 38px;
     font-weight: bold;
-    color: white;
+    color: $white;
   }
 
-  .head-line {
-    font-family: "Domine", serif;
-    font-size: 48px;
-    font-weight: bold;
-    line-height: 1.27;
+  #homepage-header {
+    margin-top: 163px;
+
+    .head-line {
+      font-family: "Domine", serif;
+      font-size: 3rem;
+      font-weight: bold;
+      line-height: 1.27;
+    }
+
+    .head-text {
+      font-size: 1.25rem;
+      line-height: 1.65;
+      margin-top: 15px;
+      margin-right: 30px;
+    }
+
+    button {
+      display: inline-block;
+      width: 100%;
+      font-weight: 600;
+      font-size: 18px;
+      padding: 16px 0 14px 0;
+    }
   }
 
   .student-typing {
@@ -37,6 +56,11 @@ header {
     top: -10px;
     right: -210px;
     z-index: 100;
+    @media (max-width: 767.98px) {
+      max-width: 120vw;
+      top: 100px;
+      right: -200px;
+    }
   }
 
   .half-loop {
@@ -45,6 +69,18 @@ header {
     height: auto;
     top: 0;
     left: 0;
+    z-index: 100;
+  }
+
+  #header-square-1 {
+    top: 161px;
+    left: 42vw;
+    z-index: 100;
+  }
+
+  #header-square-2 {
+    bottom: -72px;
+    left: 7.2vw;
     z-index: 100;
   }
 }
