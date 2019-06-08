@@ -1,10 +1,11 @@
 /* import only the necessary Bootstrap files */
 /* -------begin customization-------- */
 @import url("https://fonts.googleapis.com/css?family=Domine:400,700|Maven+Pro:400,500,700,900|Montserrat:400,500,600,700,900&display=swap");
-/* line 14, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/custom.scss */
+/* line 12, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/custom.scss */
 :root {
   --dusk: #3e396b;
   --very-light-blue: #f8faff;
+  --oPadding: calc(0.16 * 100vw);
 }
 
 /* -------end customization-------- */
@@ -11441,7 +11442,7 @@ a:focus {
   }
 }
 
-/* line 101, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 102, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage .half-loop {
   position: absolute;
   max-height: 100%;
@@ -11454,29 +11455,29 @@ a:focus {
 }
 
 @media (min-width: 991.98px) {
-  /* line 101, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+  /* line 102, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
   #homepage .half-loop {
     max-width: 20.7vw;
     width: 269px;
   }
 }
 
-/* line 116, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 118, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #header-square-1 {
   top: 161px;
   left: 42vw;
   z-index: 100;
 }
 
-/* line 122, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 124, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #header-square-2 {
   bottom: -72px;
   left: 7.2vw;
   z-index: 100;
 }
 
-/* line 129, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#life-changeing-experience {
+/* line 131, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#life-changing-experience {
   position: relative;
   background-color: var(--very-light-blue);
   padding-bottom: 40px;
@@ -11484,15 +11485,36 @@ a:focus {
   transform-origin: top left;
 }
 
-/* line 136, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#life-changeing-experience .content {
-  transform: skewY(9deg);
-  transform-origin: top left;
+/* line 140, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#life-changing-experience .content {
+  width: 100%;
   background-color: var(--very-light-blue);
+  transform: skew(0deg, 9deg);
+  transform-origin: top left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 105;
 }
 
-/* line 142, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#life-changeing-experience #life-changeing-experience-title {
+/* line 151, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#life-changing-experience:after {
+  content: "";
+  background-color: var(--very-light-blue);
+  display: block;
+  width: 100%;
+  height: var(--oPadding);
+  min-height: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  transform-origin: bottom left;
+  transform: skewY(9deg);
+  z-index: -1;
+}
+
+/* line 166, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#life-changing-experience #life-changing-experience-title {
   background: url(../images/path-5185.svg) no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -11502,22 +11524,22 @@ a:focus {
   overflow: visible;
 }
 
-/* line 152, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#life-changeing-experience h2 {
+/* line 176, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#life-changing-experience h2 {
   font-family: "Domine";
   font-size: 36px;
   font-weight: bold;
   text-align: center;
 }
 
-/* line 159, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#life-changeing-experience #life-changeing-experience-subtitle {
+/* line 183, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#life-changing-experience #life-changing-experience-subtitle {
   font-size: 1.25rem;
   margin-bottom: 49px;
 }
 
-/* line 165, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#life-changeing-experience #life-changeing-selling-points h3 {
+/* line 190, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#life-changing-experience #life-changing-selling-points h3 {
   font-family: "Domine";
   font-size: 1.125rem;
   font-weight: bold;
@@ -11527,13 +11549,30 @@ a:focus {
   color: var(--gray-dark);
 }
 
-/* line 175, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#life-changeing-experience #life-changeing-selling-points p {
+/* line 200, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#life-changing-experience #life-changing-selling-points p {
   padding: 0 25px;
   margin-bottom: 59px;
   line-height: 1.41;
   font-size: 17px;
   color: var(--gray);
+}
+
+/* line 210, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life {
+  position: relative;
+  z-index: 102;
+  margin-bottom: var(--oPadding);
+}
+
+/* line 215, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life .regular-content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 105;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=custom.css.map */

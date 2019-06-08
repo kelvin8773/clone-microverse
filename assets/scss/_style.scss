@@ -87,6 +87,7 @@ a:focus {
     top: -10px;
     right: -210px;
     z-index: 100;
+
     @media (max-width: 767.98px) {
       max-width: 120vw;
       top: 100px;
@@ -107,6 +108,7 @@ a:focus {
     z-index: 100;
     max-width: 32.2vw;
     width: 288px;
+
     @media (min-width: 991.98px) {
       max-width: 20.7vw;
       width: 269px;
@@ -126,20 +128,42 @@ a:focus {
   }
 }
 
-#life-changeing-experience {
+#life-changing-experience {
   position: relative;
   background-color: var(--very-light-blue);
   padding-bottom: 40px;
   transform: skewY(-9deg);
   transform-origin: top left;
 
+
+
   .content {
-    transform: skewY(9deg);
-    transform-origin: top left;
+    width: 100%;
     background-color: var(--very-light-blue);
+    transform: skew(0deg, 9deg);
+    transform-origin: top left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 105;
   }
 
-  #life-changeing-experience-title {
+  &:after {
+    content: "";
+    background-color: var(--very-light-blue);
+    display: block;
+    width: 100%;
+    height: var(--oPadding);
+    min-height: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    transform-origin: bottom left;
+    transform: skewY(9deg);
+    z-index: -1;
+  }
+
+  #life-changing-experience-title {
     background: url(../images/path-5185.svg) no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -156,12 +180,13 @@ a:focus {
     text-align: center;
   }
 
-  #life-changeing-experience-subtitle {
+  #life-changing-experience-subtitle {
     font-size: 1.25rem;
     margin-bottom: 49px;
   }
 
-  #life-changeing-selling-points {
+  #life-changing-selling-points {
+
     h3 {
       font-family: "Domine";
       font-size: 1.125rem;
@@ -179,5 +204,20 @@ a:focus {
       font-size: 17px;
       color: var(--gray);
     }
+  }
+}
+
+#student-life {
+  position: relative;
+  z-index: 102;
+  margin-bottom: var(--oPadding);
+
+  .regular-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 105;
+    box-sizing: border-box;
   }
 }

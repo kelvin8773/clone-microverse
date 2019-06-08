@@ -6,14 +6,13 @@
 
 /* -------begin customization-------- */
 
-$theme-colors: (
-  primary: #6f23ff,
-  secondary: #ffd540
-);
+$theme-colors: (primary: #6f23ff,
+secondary: #ffd540);
 
 :root {
   --dusk: #3e396b;
   --very-light-blue: #f8faff;
+  --oPadding: calc(0.16 * 100vw);
 }
 
 /* -------end customization-------- */
