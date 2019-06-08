@@ -10,6 +10,27 @@ a:focus {
   text-decoration: none;
 }
 
+h3 {
+  font-family: "Domine", serif;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: var(--dusk);
+}
+
+p {
+  font-family: 'Montserrat', serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.94;
+  letter-spacing: normal;
+  color: #636c98;
+}
+
 .content {
   width: 100%;
   position: relative;
@@ -17,6 +38,15 @@ a:focus {
   padding: 0;
   box-sizing: border-box;
   z-index: 105;
+}
+
+.H2-Subtitle {
+  font-family: 'Montserrat', serif;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: #636c98;
+
 }
 
 #homepage {
@@ -188,14 +218,12 @@ a:focus {
   #life-changing-selling-points {
 
     h3 {
-      font-family: "Domine";
-      font-size: 1.125rem;
-      font-weight: bold;
-      line-height: 1.33;
-      margin: 37px 0 9px 0;
       padding: 0 25px;
-      color: var(--gray-dark);
+      margin: 37px 0 9px 0;
+      font-size: 18px;
+      line-height: 1.33
     }
+
 
     p {
       padding: 0 25px;
@@ -219,5 +247,137 @@ a:focus {
     position: relative;
     z-index: 105;
     box-sizing: border-box;
+  }
+
+  #student-life-title {
+    color: #f9f9f9;
+    background: url(../images/path-5185-2.svg) no-repeat;
+    background-size: 100% 100%;
+    resize: both;
+    background-position: center;
+    padding: 21px 18px 17px;
+    margin: 87px 0 15px;
+    overflow: visible;
+  }
+
+  h2 {
+    font-family: 'Domine', serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #student-life-subtitle {
+    padding: 0;
+    margin-bottom: 83px;
+  }
+
+  .student-life-copy {
+    padding-bottom: 45px;
+
+    img {
+      margin: -16px 0 0 -22px;
+      z-index: -1;
+    }
+
+    h3 {
+      margin-top: 25px;
+      margin-bottom: 19px;
+    }
+  }
+
+  .background-element {
+    position: absolute;
+  }
+
+  #student-life-selling-point-1,
+  #student-life-selling-point-2 {
+    margin-bottom: 184px;
+  }
+
+  #daily-schedule-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 3px;
+    margin-bottom: 115px;
+
+    thead {
+      tr {
+        th {
+          box-shadow: 0 2px 4px 0 rgba(185, 185, 185, 0.5);
+          background-color: rgba(111, 35, 255, 0.67);
+          font-family: 'Domine', serif;
+          font-size: 19px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          letter-spacing: normal;
+          color: #fff;
+          padding: 12px 0 12px 18px;
+          margin: 0;
+          border-collapse: collapse;
+        }
+      }
+    }
+
+    tbody {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: normal;
+      color: var(--dusk);
+      background-color: transparent;
+
+      tr {
+        box-shadow: 0 2px 4px 0 rgba(185, 185, 185, 0.5);
+      }
+    }
+  }
+
+  .table-header-line-2 {
+    font-size: 15px;
+    margin-top: 4px;
+  }
+
+  .thin-col {
+    font-size: 16px;
+    width: 146px;
+    text-align: center;
+    padding: 15px 0 15px;
+  }
+
+  .wide-col {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px 0 15px 15px;
+    border-left: 1px solid #ebebeb;
+  }
+
+  #half-circle-1 {
+    max-width: 13vw;
+    max-height: 100%;
+    height: auto;
+    position: absolute;
+    top: 399px;
+    right: 0;
+    z-index: -2;
+  }
+
+  #half-circle-2 {
+    max-width: 11vw;
+    max-height: 100%;
+    height: auto;
+    position: absolute;
+    top: 756px;
+    left: 0;
+    z-index: -2;
+  }
+
+  #half-circle-3 {
+    max-width: 13vw;
+    max-height: 100%;
+    height: auto;
+    position: absolute;
+    top: 1296px;
+    right: 0;
+    z-index: -2;
   }
 }

@@ -11337,6 +11337,29 @@ a:focus {
 }
 
 /* line 13, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+h3 {
+  font-family: "Domine", serif;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: var(--dusk);
+}
+
+/* line 23, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+p {
+  font-family: 'Montserrat', serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.94;
+  letter-spacing: normal;
+  color: #636c98;
+}
+
+/* line 34, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 .content {
   width: 100%;
   position: relative;
@@ -11346,35 +11369,44 @@ a:focus {
   z-index: 105;
 }
 
-/* line 22, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 43, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+.H2-Subtitle {
+  font-family: 'Montserrat', serif;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: #636c98;
+}
+
+/* line 52, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage {
   transform: skewY(-9deg);
   transform-origin: top left;
   padding-bottom: 160px;
 }
 
-/* line 27, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 57, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage .content {
   transform: skewY(9deg);
   transform-origin: top left;
 }
 
-/* line 32, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 62, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage .container {
   z-index: 100;
 }
 
-/* line 37, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 67, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-navbar-container #homepage-navbar {
   padding: 50px 0 0;
 }
 
-/* line 40, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 70, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-navbar-container #homepage-navbar .container {
   z-index: 105;
 }
 
-/* line 43, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 73, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-navbar-container #homepage-navbar .container .logo {
   font-family: "Maven Pro", sans-serif;
   font-size: 38px;
@@ -11382,14 +11414,14 @@ a:focus {
   color: #fff;
 }
 
-/* line 53, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 83, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-header {
   margin-top: 163px;
   position: relative;
   z-index: 105;
 }
 
-/* line 58, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 88, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-header .head-line {
   font-family: "Domine", serif;
   font-size: 3rem;
@@ -11397,7 +11429,7 @@ a:focus {
   line-height: 1.27;
 }
 
-/* line 65, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 95, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-header .head-text {
   font-size: 1.25rem;
   line-height: 1.65;
@@ -11405,7 +11437,7 @@ a:focus {
   margin-right: 30px;
 }
 
-/* line 72, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 102, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-header button {
   display: inline-block;
   width: 100%;
@@ -11414,7 +11446,7 @@ a:focus {
   padding: 16px 0 14px 0;
 }
 
-/* line 81, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 111, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage .student-typing {
   position: absolute;
   box-sizing: border-box;
@@ -11427,7 +11459,7 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
-  /* line 81, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+  /* line 111, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
   #homepage .student-typing {
     max-width: 120vw;
     top: 100px;
@@ -11436,13 +11468,13 @@ a:focus {
 }
 
 @media (max-width: 991.98px) {
-  /* line 81, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+  /* line 111, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
   #homepage .student-typing {
     top: 90px;
   }
 }
 
-/* line 102, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 132, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage .half-loop {
   position: absolute;
   max-height: 100%;
@@ -11455,28 +11487,28 @@ a:focus {
 }
 
 @media (min-width: 991.98px) {
-  /* line 102, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+  /* line 132, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
   #homepage .half-loop {
     max-width: 20.7vw;
     width: 269px;
   }
 }
 
-/* line 118, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 148, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #header-square-1 {
   top: 161px;
   left: 42vw;
   z-index: 100;
 }
 
-/* line 124, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 154, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #header-square-2 {
   bottom: -72px;
   left: 7.2vw;
   z-index: 100;
 }
 
-/* line 131, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 161, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience {
   position: relative;
   background-color: var(--very-light-blue);
@@ -11485,7 +11517,7 @@ a:focus {
   transform-origin: top left;
 }
 
-/* line 140, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 170, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience .content {
   width: 100%;
   background-color: var(--very-light-blue);
@@ -11497,7 +11529,7 @@ a:focus {
   z-index: 105;
 }
 
-/* line 151, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 181, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience:after {
   content: "";
   background-color: var(--very-light-blue);
@@ -11513,7 +11545,7 @@ a:focus {
   z-index: -1;
 }
 
-/* line 166, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 196, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience #life-changing-experience-title {
   background: url(../images/path-5185.svg) no-repeat;
   background-size: 100% 100%;
@@ -11524,7 +11556,7 @@ a:focus {
   overflow: visible;
 }
 
-/* line 176, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 206, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience h2 {
   font-family: "Domine";
   font-size: 36px;
@@ -11532,24 +11564,21 @@ a:focus {
   text-align: center;
 }
 
-/* line 183, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 213, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience #life-changing-experience-subtitle {
   font-size: 1.25rem;
   margin-bottom: 49px;
 }
 
-/* line 190, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 220, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience #life-changing-selling-points h3 {
-  font-family: "Domine";
-  font-size: 1.125rem;
-  font-weight: bold;
-  line-height: 1.33;
-  margin: 37px 0 9px 0;
   padding: 0 25px;
-  color: var(--gray-dark);
+  margin: 37px 0 9px 0;
+  font-size: 18px;
+  line-height: 1.33;
 }
 
-/* line 200, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 228, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience #life-changing-selling-points p {
   padding: 0 25px;
   margin-bottom: 59px;
@@ -11558,14 +11587,14 @@ a:focus {
   color: var(--gray);
 }
 
-/* line 210, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 238, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life {
   position: relative;
   z-index: 102;
   margin-bottom: var(--oPadding);
 }
 
-/* line 215, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 243, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life .regular-content {
   width: 100%;
   margin: 0;
@@ -11573,6 +11602,152 @@ a:focus {
   position: relative;
   z-index: 105;
   box-sizing: border-box;
+}
+
+/* line 252, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life #student-life-title {
+  color: #f9f9f9;
+  background: url(../images/path-5185-2.svg) no-repeat;
+  background-size: 100% 100%;
+  resize: both;
+  background-position: center;
+  padding: 21px 18px 17px;
+  margin: 87px 0 15px;
+  overflow: visible;
+}
+
+/* line 263, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life h2 {
+  font-family: 'Domine', serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 270, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life #student-life-subtitle {
+  padding: 0;
+  margin-bottom: 83px;
+}
+
+/* line 275, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life .student-life-copy {
+  padding-bottom: 45px;
+}
+
+/* line 278, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life .student-life-copy img {
+  margin: -16px 0 0 -22px;
+  z-index: -1;
+}
+
+/* line 283, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life .student-life-copy h3 {
+  margin-top: 25px;
+  margin-bottom: 19px;
+}
+
+/* line 289, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life .background-element {
+  position: absolute;
+}
+
+/* line 293, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life #student-life-selling-point-1,
+#student-life #student-life-selling-point-2 {
+  margin-bottom: 184px;
+}
+
+/* line 298, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life #daily-schedule-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 3px;
+  margin-bottom: 115px;
+}
+
+/* line 306, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life #daily-schedule-table thead tr th {
+  box-shadow: 0 2px 4px 0 rgba(185, 185, 185, 0.5);
+  background-color: rgba(111, 35, 255, 0.67);
+  font-family: 'Domine', serif;
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #fff;
+  padding: 12px 0 12px 18px;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+/* line 323, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life #daily-schedule-table tbody {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: var(--dusk);
+  background-color: transparent;
+}
+
+/* line 329, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life #daily-schedule-table tbody tr {
+  box-shadow: 0 2px 4px 0 rgba(185, 185, 185, 0.5);
+}
+
+/* line 335, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life .table-header-line-2 {
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+/* line 340, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life .thin-col {
+  font-size: 16px;
+  width: 146px;
+  text-align: center;
+  padding: 15px 0 15px;
+}
+
+/* line 347, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life .wide-col {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 0 15px 15px;
+  border-left: 1px solid #ebebeb;
+}
+
+/* line 354, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life #half-circle-1 {
+  max-width: 13vw;
+  max-height: 100%;
+  height: auto;
+  position: absolute;
+  top: 399px;
+  right: 0;
+  z-index: -2;
+}
+
+/* line 364, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life #half-circle-2 {
+  max-width: 11vw;
+  max-height: 100%;
+  height: auto;
+  position: absolute;
+  top: 756px;
+  left: 0;
+  z-index: -2;
+}
+
+/* line 374, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#student-life #half-circle-3 {
+  max-width: 13vw;
+  max-height: 100%;
+  height: auto;
+  position: absolute;
+  top: 1296px;
+  right: 0;
+  z-index: -2;
 }
 
 /*# sourceMappingURL=custom.css.map */
