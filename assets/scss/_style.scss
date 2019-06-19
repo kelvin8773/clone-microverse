@@ -423,7 +423,7 @@ p {
     width: 100%;
     border-collapse: collapse;
     border-radius: 7px;
-    box-shadow: 2px 14px 0 rgba(181, 181, 181, 0.3);
+    box-shadow: 2px 14px 6px rgba(181, 181, 181, 0.3);
     box-sizing: border-box;
     background-color: #fff;
     position: relative;
@@ -534,6 +534,30 @@ p {
     }
 
 
+  }
+
+  .logos-box.big {
+    margin-top: 84px;
+
+    img {
+      height: 80px;
+      margin-left: 25px;
+      margin-right: 20px;
+      filter: grayscale(90%);
+      mix-blend-mode: luminosity;
+      width: auto;
+      min-width: 0px;
+      flex-basis: 0px;
+      flex-grow: 1;
+    }
+  }
+
+  .logos-box {
+    margin-right: -20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: auto;
+    align-items: baseline;
   }
 
 
