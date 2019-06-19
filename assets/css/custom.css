@@ -11393,34 +11393,49 @@ p {
 }
 
 /* line 63, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+.yellow-button {
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.57);
+  background-color: #ffd540;
+  white-space: normal;
+  font-weight: 600;
+  color: #3e3e3e;
+  vertical-align: middle;
+  user-select: none;
+}
+
+/* line 77, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage {
   transform: skewY(-9deg);
   transform-origin: top left;
   padding-bottom: 160px;
 }
 
-/* line 68, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 82, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage .content {
   transform: skewY(9deg);
   transform-origin: top left;
 }
 
-/* line 73, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 87, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage .container {
   z-index: 100;
 }
 
-/* line 78, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 92, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-navbar-container #homepage-navbar {
   padding: 50px 0 0;
 }
 
-/* line 81, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 95, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-navbar-container #homepage-navbar .container {
   z-index: 105;
 }
 
-/* line 84, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 98, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-navbar-container #homepage-navbar .container .logo {
   font-family: "Maven Pro", sans-serif;
   font-size: 38px;
@@ -11428,14 +11443,14 @@ p {
   color: #fff;
 }
 
-/* line 94, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 108, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-header {
   margin-top: 163px;
   position: relative;
   z-index: 105;
 }
 
-/* line 99, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 113, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-header .head-line {
   font-family: "Domine", serif;
   font-size: 3rem;
@@ -11443,7 +11458,7 @@ p {
   line-height: 1.27;
 }
 
-/* line 106, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 120, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-header .head-text {
   font-size: 1.25rem;
   line-height: 1.65;
@@ -11452,7 +11467,7 @@ p {
   color: #fff;
 }
 
-/* line 114, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 128, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #homepage-header button {
   display: inline-block;
   width: 100%;
@@ -11461,7 +11476,7 @@ p {
   padding: 16px 0 14px 0;
 }
 
-/* line 123, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 137, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage .student-typing {
   position: absolute;
   box-sizing: border-box;
@@ -11474,7 +11489,7 @@ p {
 }
 
 @media (max-width: 767.98px) {
-  /* line 123, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+  /* line 137, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
   #homepage .student-typing {
     max-width: 120vw;
     top: 100px;
@@ -11483,13 +11498,13 @@ p {
 }
 
 @media (max-width: 991.98px) {
-  /* line 123, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+  /* line 137, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
   #homepage .student-typing {
     top: 90px;
   }
 }
 
-/* line 144, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 158, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage .half-loop {
   position: absolute;
   max-height: 100%;
@@ -11502,28 +11517,28 @@ p {
 }
 
 @media (min-width: 991.98px) {
-  /* line 144, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+  /* line 158, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
   #homepage .half-loop {
     max-width: 20.7vw;
     width: 269px;
   }
 }
 
-/* line 160, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 174, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #header-square-1 {
   top: 161px;
   left: 42vw;
   z-index: 100;
 }
 
-/* line 166, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 180, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #homepage #header-square-2 {
   bottom: -72px;
   left: 7.2vw;
   z-index: 100;
 }
 
-/* line 173, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 187, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience {
   position: relative;
   background-color: var(--very-light-blue);
@@ -11532,7 +11547,7 @@ p {
   transform-origin: top left;
 }
 
-/* line 180, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 194, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience .content {
   width: 100%;
   background-color: var(--very-light-blue);
@@ -11544,7 +11559,7 @@ p {
   z-index: 105;
 }
 
-/* line 191, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 205, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience:after {
   content: "";
   background-color: var(--very-light-blue);
@@ -11560,7 +11575,7 @@ p {
   z-index: -1;
 }
 
-/* line 206, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 220, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience #life-changing-experience-title {
   background: url(../images/path-5185.svg) no-repeat;
   background-size: 100% 100%;
@@ -11571,7 +11586,7 @@ p {
   overflow: visible;
 }
 
-/* line 216, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 230, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience h2 {
   font-family: "Domine";
   font-size: 36px;
@@ -11579,13 +11594,13 @@ p {
   text-align: center;
 }
 
-/* line 223, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 237, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience #life-changing-experience-subtitle {
   font-size: 1.25rem;
   margin-bottom: 49px;
 }
 
-/* line 230, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 244, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience #life-changing-selling-points h3 {
   padding: 0 25px;
   margin: 37px 0 9px 0;
@@ -11593,7 +11608,7 @@ p {
   line-height: 1.33;
 }
 
-/* line 238, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 252, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #life-changing-experience #life-changing-selling-points p {
   padding: 0 25px;
   margin-bottom: 59px;
@@ -11602,14 +11617,14 @@ p {
   color: var(--gray);
 }
 
-/* line 248, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 262, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life {
   position: relative;
   z-index: 102;
   margin-bottom: var(--oPadding);
 }
 
-/* line 253, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 267, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life .regular-content {
   width: 100%;
   margin: 0;
@@ -11619,7 +11634,7 @@ p {
   box-sizing: border-box;
 }
 
-/* line 262, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 276, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life #student-life-title {
   color: #f9f9f9;
   background: url(../images/path-5185-2.svg) no-repeat;
@@ -11631,41 +11646,41 @@ p {
   overflow: visible;
 }
 
-/* line 275, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 289, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life #student-life-subtitle {
   padding: 0;
   margin-bottom: 83px;
 }
 
-/* line 280, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 294, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life .student-life-copy {
   padding-bottom: 45px;
 }
 
-/* line 283, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 297, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life .student-life-copy img {
   margin: -16px 0 0 -22px;
   z-index: -1;
 }
 
-/* line 288, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 302, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life .student-life-copy h3 {
   margin-top: 25px;
   margin-bottom: 19px;
 }
 
-/* line 294, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 308, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life .background-element {
   position: absolute;
 }
 
-/* line 298, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 312, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life #student-life-selling-point-1,
 #student-life #student-life-selling-point-2 {
   margin-bottom: 184px;
 }
 
-/* line 303, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 317, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life #daily-schedule-table {
   width: 100%;
   border-collapse: separate;
@@ -11673,7 +11688,7 @@ p {
   margin-bottom: 115px;
 }
 
-/* line 311, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 325, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life #daily-schedule-table thead tr th {
   box-shadow: 0 2px 4px 0 rgba(185, 185, 185, 0.5);
   background-color: rgba(111, 35, 255, 0.67);
@@ -11689,7 +11704,7 @@ p {
   border-collapse: collapse;
 }
 
-/* line 328, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 342, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life #daily-schedule-table tbody {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
@@ -11697,18 +11712,18 @@ p {
   background-color: transparent;
 }
 
-/* line 334, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 348, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life #daily-schedule-table tbody tr {
   box-shadow: 0 2px 4px 0 rgba(185, 185, 185, 0.5);
 }
 
-/* line 340, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 354, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life .table-header-line-2 {
   font-size: 15px;
   margin-top: 4px;
 }
 
-/* line 345, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 359, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life .thin-col {
   font-size: 16px;
   width: 146px;
@@ -11716,7 +11731,7 @@ p {
   padding: 15px 0 15px;
 }
 
-/* line 352, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 366, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life .wide-col {
   font-size: 17px;
   font-weight: bold;
@@ -11724,7 +11739,7 @@ p {
   border-left: 1px solid #ebebeb;
 }
 
-/* line 359, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 373, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life #half-circle-1 {
   max-width: 13vw;
   max-height: 100%;
@@ -11735,7 +11750,7 @@ p {
   z-index: -2;
 }
 
-/* line 369, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 383, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life #half-circle-2 {
   max-width: 11vw;
   max-height: 100%;
@@ -11746,7 +11761,7 @@ p {
   z-index: -2;
 }
 
-/* line 379, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 393, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #student-life #half-circle-3 {
   max-width: 13vw;
   max-height: 100%;
@@ -11757,7 +11772,7 @@ p {
   z-index: -2;
 }
 
-/* line 390, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 404, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #world-class-curriculum {
   background-color: var(--very-light-blue);
   position: relative;
@@ -11768,14 +11783,14 @@ p {
   z-index: 102;
 }
 
-/* line 399, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+/* line 413, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 #world-class-curriculum .content {
   transform: skewY(9deg);
   transform-origin: top left;
 }
 
-/* line 404, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #world-class-curriculum-title {
+/* line 417, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #world-class-curriculum-title {
   background: url(../images/brush-stroke-banner-1-onlygfx-dot-com-3.svg) no-repeat;
   background-size: 100% 100%;
   resize: both;
@@ -11786,16 +11801,16 @@ p {
   text-align: left;
 }
 
-/* line 415, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum .world-class-curriculum-copy {
+/* line 428, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content .world-class-curriculum-copy {
   padding: 0 68px 0 30px;
   font-size: 20px;
   line-height: 1.65;
   clear: both;
 }
 
-/* line 422, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table {
+/* line 435, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table {
   width: 100%;
   border-collapse: collapse;
   border-radius: 7px;
@@ -11807,8 +11822,8 @@ p {
   border-bottom: 18px solid transparent;
 }
 
-/* line 433, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .curriculum-btn {
+/* line 446, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .curriculum-btn {
   display: block;
   border-radius: 22px;
   font-family: 'Montserrat', serif;
@@ -11820,8 +11835,8 @@ p {
   float: right;
 }
 
-/* line 445, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .tealish-button {
+/* line 458, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .tealish-button {
   background-color: rgba(65, 211, 189, 0.5);
   font-size: 12px;
   color: var(--very-light-blue);
@@ -11830,15 +11845,15 @@ p {
   max-width: 156px;
 }
 
-/* line 454, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .clickable-header.expanded {
+/* line 467, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .clickable-header.expanded {
   color: #fff;
   background-color: var(--purplish-blue);
   border-left: 18px solid var(--tealish);
 }
 
-/* line 459, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .clickable-header.expanded td {
+/* line 472, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .clickable-header.expanded td {
   border-top: 36px solid transparent;
   border-bottom: 22px solid transparent;
   padding: 0 0 6px;
@@ -11846,15 +11861,15 @@ p {
   outline: none;
 }
 
-/* line 467, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .clickable-header.expanded .arrow-toggler {
+/* line 480, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .clickable-header.expanded .arrow-toggler {
   width: 18px;
   height: 9px;
   margin: auto 20px;
 }
 
-/* line 473, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .clickable-header.expanded .gray-button {
+/* line 486, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .clickable-header.expanded .gray-button {
   background-color: #fcfcfc;
   font-size: 15px;
   color: var(--purplish-blue);
@@ -11863,20 +11878,20 @@ p {
   max-width: 126px;
 }
 
-/* line 483, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .clickable-header.collapsed {
+/* line 496, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .clickable-header.collapsed {
   color: var(--dusk);
 }
 
-/* line 486, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .clickable-header.collapsed td {
+/* line 499, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .clickable-header.collapsed td {
   padding: 6px 0;
   margin: 0;
   outline: none;
 }
 
-/* line 492, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .clickable-header.collapsed .arrow-toggler {
+/* line 505, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .clickable-header.collapsed .arrow-toggler {
   width: 9px;
   height: 18px;
   display: block;
@@ -11884,8 +11899,8 @@ p {
   margin-right: auto;
 }
 
-/* line 500, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .clickable-header.collapsed .gray-button {
+/* line 513, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .clickable-header.collapsed .gray-button {
   background-color: #ede4ff;
   font-size: 15px;
   color: #935dff;
@@ -11894,21 +11909,21 @@ p {
   max-width: 126px;
 }
 
-/* line 510, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .clickable-header {
+/* line 523, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .clickable-header {
   font-family: 'Montserrat', serif;
   font-size: 18px;
   font-weight: 600;
 }
 
-/* line 515, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .clickable-header .spacer {
+/* line 528, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .clickable-header .spacer {
   height: 27px;
   background-color: transparent;
 }
 
-/* line 522, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .collapsible-row-group {
+/* line 535, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .collapsible-row-group {
   background-color: #f7f3ff;
   font-family: 'Montserrat', serif;
   font-size: 15px;
@@ -11918,18 +11933,18 @@ p {
   border-bottom: 29px solid transparent;
 }
 
-/* line 531, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum #curriculum-overview-table .collapsible-row-group td {
+/* line 544, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #curriculum-overview-table .collapsible-row-group td {
   padding: 4px 0;
 }
 
-/* line 539, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum .logos-box.big {
+/* line 552, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content .logos-box.big {
   margin-top: 84px;
 }
 
-/* line 542, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum .logos-box.big img {
+/* line 555, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content .logos-box.big img {
   height: 80px;
   margin-left: 25px;
   margin-right: 20px;
@@ -11941,13 +11956,280 @@ p {
   flex-grow: 1;
 }
 
-/* line 555, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
-#world-class-curriculum .logos-box {
+/* line 568, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content .logos-box {
   margin-right: -20px;
   flex-direction: row;
   flex-wrap: nowrap;
   min-height: auto;
   align-items: baseline;
+}
+
+/* line 576, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content hr {
+  margin: 95px 0 104px;
+  width: 100%;
+  height: 2px;
+  border: 1px;
+  color: #e9e9e9;
+  background-color: #e9e9e9;
+  border-color: #e9e9e9;
+}
+
+/* line 586, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #get-syllabus-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--dusk);
+  margin-bottom: 0;
+}
+
+/* line 593, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #get-syllabus-form {
+  padding-bottom: 144px;
+  text-align: center;
+}
+
+/* line 597, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #get-syllabus-form #get-syllabus-email {
+  width: 100%;
+  height: 52px;
+  padding: 0 24px;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #8994c6;
+  text-overflow: ellipsis;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px 0 rgba(185, 185, 185, 0.5);
+  background-color: #fff;
+  margin: 34px auto 15px auto;
+  border-color: transparent;
+}
+
+/* line 612, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #get-syllabus-form #get-syllabus-checkbox-container {
+  margin-bottom: 25px;
+}
+
+/* line 616, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #get-syllabus-form #syllabus-checkmark-label {
+  font-size: 14px;
+  color: var(--dusk);
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  /* line 623, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+  #world-class-curriculum .content #get-syllabus-form #yellow-button-get-syllabus {
+    max-width: 262px;
+    height: 100%;
+    text-align: center;
+  }
+}
+
+/* line 630, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .content #get-syllabus-form #yellow-button-get-syllabus {
+  font-size: 18px;
+  padding: 16px 0 14px;
+  width: 100%;
+}
+
+/* line 638, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -96px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* line 650, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container .stripe {
+  z-index: 100;
+  border: none;
+  height: 48px;
+  width: 38.1vw;
+  margin: 0 -10px;
+  transform: skew(9deg, 0deg);
+  transform-origin: top left;
+}
+
+/* line 660, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container .pink {
+  background: rgba(247, 247, 205, 0.67);
+}
+
+/* line 664, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container .tealish {
+  background: rgba(65, 211, 189, 0.56);
+}
+
+/* line 668, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container .purple {
+  background: rgba(111, 35, 255, 0.35);
+}
+
+/* line 673, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container .stripe-left-1 {
+  width: 38.1vw;
+  max-width: 495px;
+}
+
+/* line 678, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container .stripe-left-2 {
+  width: 28.8vw;
+  max-width: 375px;
+}
+
+/* line 683, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container .stripe-left-3 {
+  width: 11.9vw;
+  max-width: 155px;
+}
+
+/* line 688, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container .stripe-right-1,
+#world-class-curriculum .stripe-container .stripe-right-2,
+#world-class-curriculum .stripe-container .stripe-right-3 {
+  justify-self: end;
+}
+
+/* line 694, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container .stripe-right-1 {
+  width: 35.3vw;
+  max-width: 459px;
+}
+
+/* line 699, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container .stripe-right-2 {
+  width: 20.2vw;
+  max-width: 263px;
+}
+
+/* line 704, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#world-class-curriculum .stripe-container .stripe-right-3 {
+  width: 40.4vw;
+  max-width: 525px;
+}
+
+/* line 716, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community #global-community-title {
+  background: url(../images/brush-stroke-banner-1-onlygfx-dot-com.svg);
+  background-size: 100% 100%;
+  resize: both;
+  background-position: center;
+  padding: 21px 18px 17px;
+  margin: 78px 0 19px;
+  overflow: visible;
+}
+
+/* line 726, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community #global-community-subtitle {
+  padding: 0;
+  margin-bottom: 42px;
+}
+
+/* line 731, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community #testimonials {
+  margin-bottom: var(--oPadding);
+}
+
+@media (min-width: 768px) {
+  /* line 736, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+  #global-community .featured-testimonial {
+    margin-bottom: 40px;
+  }
+}
+
+/* line 741, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community .featured-testimonial {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* line 746, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community .testimonial-spacer {
+  width: 26px;
+  height: 100%;
+}
+
+/* line 751, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community .student-story-image-container {
+  width: 64px;
+  height: 64px;
+  background-color: #d8d8d8;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  z-index: 101;
+}
+
+/* line 763, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community .student-story-background-image {
+  top: 14px;
+  left: 12px;
+}
+
+/* line 768, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community .background-element {
+  position: absolute;
+  z-index: 100;
+}
+
+/* line 773, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community .testimonial-card {
+  width: 100%;
+  box-shadow: 0 30px 30px -15px rgba(173, 173, 173, 0.12);
+  background-color: #f9fafd;
+  padding: 26px 28px 15px 70px;
+}
+
+/* line 779, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community .testimonial-card p {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.57;
+  color: #000;
+}
+
+/* line 788, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community .testimonial-card .quotation-mark {
+  margin-left: -37px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 70px;
+  color: #e7e7e7;
+  float: left;
+  line-height: 40px;
+}
+
+/* line 797, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community .testimonial-card .student-name {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.43;
+  color: var(--dusk);
+  margin-bottom: 0px;
+}
+
+/* line 806, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community .testimonial-card .student-location {
+  font-style: normal;
+  color: #adadad;
+}
+
+/* line 814, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
+#global-community #community-testimonials {
+  margin-top: 80px;
 }
 
 /*# sourceMappingURL=custom.css.map */
