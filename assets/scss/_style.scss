@@ -3,6 +3,7 @@ body {
   font-size: 16px;
 }
 
+
 a,
 a:active,
 a:hover,
@@ -73,6 +74,8 @@ p {
   vertical-align: middle;
   user-select: none;
 }
+
+
 
 #homepage {
   transform: skewY(-9deg);
@@ -713,6 +716,21 @@ p {
 
 
 #global-community {
+  background-color: #fff;
+  position: relative;
+  margin: 0;
+  padding: 100px 0 0;
+  transform: skewY(-9deg);
+  transform-origin: top left;
+  z-index: 101;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  .content {
+    transform: skew(0deg, 9deg);
+    transform-origin: top, left;
+  }
+
   #global-community-title {
     background: url(../images/brush-stroke-banner-1-onlygfx-dot-com.svg);
     background-size: 100% 100%;
@@ -813,6 +831,79 @@ p {
 
   #community-testimonials {
     margin-top: 80px;
+
+    .copy-rectangle {
+      padding-top: 0;
+      padding-bottom: var(--oHalfHeight);
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+
+    .blue-rectangle {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      transform: skewY(-9deg);
+      transform-origin: top left;
+    }
+
+    .blue-rectangle.left {
+      content: "";
+      background-color: var(--very-light-blue);
+      display: block;
+      width: 150%;
+      min-width: 50vw;
+      position: absolute;
+      z-index: -1;
+      right: 0;
+      bottom: 0;
+    }
+
+    .blue-rectangle.right {
+      content: "";
+      background-color: var(--very-light-blue);
+      display: block;
+      width: 150%;
+      min-width: 50vw;
+      position: absolute;
+      z-index: -1;
+      left: 0;
+      top: 0;
+    }
+
+
+
+    .community-container .yellow-button {
+      margin: 25px 0 85px 0;
+      font-size: 18px;
+      padding: 16px 10px 14px;
+      width: 100%;
+      max-width: 333px;
+    }
+
+    .logos-rectangle {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+      justify-items: center;
+      align-items: center;
+      position: relative;
+      z-index: 105;
+      overflow: visible;
+      padding-top: 85px;
+      padding-bottom: calc(85px + var(--oHalfHeight));
+
+      img {
+        width: auto;
+        max-width: 90%;
+        height: auto;
+      }
+    }
+
+
+
+
 
 
 
