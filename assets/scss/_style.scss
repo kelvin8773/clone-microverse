@@ -850,6 +850,8 @@ p {
     }
 
     .blue-rectangle.left {
+      right: 0;
+      bottom: 0;
       content: "";
       background-color: var(--very-light-blue);
       display: block;
@@ -857,9 +859,8 @@ p {
       min-width: 50vw;
       position: absolute;
       z-index: -1;
-      right: 0;
-      bottom: 0;
     }
+
 
     .blue-rectangle.right {
       content: "";
@@ -901,14 +902,96 @@ p {
       }
     }
 
-
-
-
-
-
-
-
-
   }
 
+}
+
+
+#founders-story {
+  background-color: #f7f5ee;
+  position: relative;
+  margin: 0;
+  z-index: 100;
+  transform-origin: bottom left;
+  transform: skewY(-9deg);
+
+  .content {
+    transform: skew(0deg, 9deg);
+    transform-origin: top left;
+  }
+
+  .ariel-portrait-container {
+    position: relative;
+    height: 576px;
+    width: 100%;
+    margin-top: 57px;
+  }
+
+  #ariel-portrait {
+    position: absolute;
+    height: auto;
+    max-height: 576px;
+    max-width: 100%;
+    margin: 57px auto;
+    z-index: 101;
+    bottom: 0;
+    left: 0;
+    object-fit: contain;
+  }
+
+  #founders-story-title {
+    color: #fff;
+    background: url(../images/brush-stroke-banner-1-onlygfx-dot-com-5.svg);
+    background-size: 100% 100%;
+    resize: both;
+    background-position: right;
+    padding: 22px 62px 16px 30px;
+    margin: 0 -32px 51px 0;
+    overflow: visible;
+    float: right;
+    text-align: end;
+    position: relative;
+    z-index: 105;
+    width: 100%;
+  }
+
+  p {
+    display: block;
+    text-align: right;
+    clear: right;
+    font-size: 20px;
+    line-height: 1.65;
+    color: var(--dusk);
+  }
+
+  .signature-img {
+    display: block;
+    position: relative;
+    float: right;
+    margin: 32px 0 0;
+    width: 285px;
+    max-width: 21.9vw;
+    height: auto;
+  }
+
+  .signature-text {
+    margin: 0 0 69px;
+  }
+
+
+}
+
+#founders-story::after {
+  content: "";
+  background-color: #f7f5ee;
+  display: block;
+  width: 100%;
+  height: var(--oPadding);
+  min-height: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  transform-origin: bottom left;
+  transform: skewY(9deg);
+  z-index: -1
 }
