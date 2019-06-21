@@ -33,7 +33,7 @@ h3 {
 }
 
 p {
-  font-family: 'Montserrat', serif;
+  font-family: "Montserrat", serif;
   font-size: 17px;
   font-weight: normal;
   font-stretch: normal;
@@ -82,6 +82,11 @@ p {
   position: relative;
   z-index: 105;
   box-sizing: border-box;
+}
+
+.background-element {
+  position: absolute;
+  z-index: 100;
 }
 
 
@@ -309,9 +314,6 @@ p {
     }
   }
 
-  .background-element {
-    position: absolute;
-  }
 
   #student-life-selling-point-1,
   #student-life-selling-point-2 {
@@ -784,10 +786,7 @@ p {
     left: 12px;
   }
 
-  .background-element {
-    position: absolute;
-    z-index: 100;
-  }
+
 
   .testimonial-card {
     width: 100%;
@@ -1098,6 +1097,7 @@ p {
     margin-bottom: 119px;
     text-align: center;
     font-size: 24px;
+    font-weight: normal;
   }
 
   svg {
@@ -1113,6 +1113,26 @@ p {
     circle {
       fill: #3e396b;
     }
+  }
+
+  #square-thingy-6 {
+    top: 264px;
+    right: 15.6vw;
+  }
+
+  #square-thingy-7 {
+    top: 645px;
+    left: 7.4vw;
+  }
+
+  #square-thingy-8 {
+    top: 978px;
+    right: 10.2vw;
+  }
+
+  #square-thingy-9 {
+    top: 1181px;
+    left: 12vw;
   }
 
 
