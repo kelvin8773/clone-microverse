@@ -1,8 +1,5 @@
 // Customize CSS To Use Bootstrap & Own Style import
 
-/* import only the necessary Bootstrap files */
-@import "../bootstrap/scss/functions";
-@import "../bootstrap/scss/variables";
 
 /* -------begin customization-------- */
 
@@ -28,7 +25,7 @@ secondary: #ffd540);
 
 /* -------end customization-------- */
 
-/* finally, import Bootstrap to set the changes! */
+/* import Bootstrap to set the changes! */
 
 @import "../bootstrap/scss/bootstrap.scss";
 
@@ -40,6 +37,6 @@ secondary: #ffd540);
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Domine', serif;
 
-/* ------------ Self-stylying -------------- */
+/* ------------ Self-styling -------------- */
 
 @import "./style";

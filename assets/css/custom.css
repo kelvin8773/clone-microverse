@@ -1,7 +1,6 @@
-/* import only the necessary Bootstrap files */
 /* -------begin customization-------- */
 @import url("https://fonts.googleapis.com/css?family=Domine:400,700|Maven+Pro:400,500,700,900|Montserrat:400,500,600,700,900&display=swap");
-/* line 12, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/custom.scss */
+/* line 9, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/custom.scss */
 :root {
   --dusk: #3e396b;
   --very-light-blue: #f8faff;
@@ -18,7 +17,7 @@
 }
 
 /* -------end customization-------- */
-/* finally, import Bootstrap to set the changes! */
+/* import Bootstrap to set the changes! */
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -194,14 +193,14 @@ sup {
 
 /* line 182, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_reboot.scss */
 a {
-  color: #007bff;
+  color: #6f23ff;
   text-decoration: none;
   background-color: transparent;
 }
 
 /* line 13, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/mixins/_hover.scss */
 a:hover {
-  color: #0056b3;
+  color: #4a00d6;
   text-decoration: underline;
 }
 
@@ -2122,9 +2121,9 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #80bdff;
+  border-color: #c2a3ff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(111, 35, 255, 0.25);
 }
 
 /* line 42, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_forms.scss */
@@ -2681,7 +2680,7 @@ textarea.form-control {
 /* line 24, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_buttons.scss */
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(111, 35, 255, 0.25);
 }
 
 /* line 31, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_buttons.scss */
@@ -3327,12 +3326,12 @@ fieldset:disabled a.btn {
 /* line 81, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_buttons.scss */
 .btn-link {
   font-weight: 400;
-  color: #007bff;
+  color: #6f23ff;
 }
 
 /* line 13, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/mixins/_hover.scss */
 .btn-link:hover {
-  color: #0056b3;
+  color: #4a00d6;
   text-decoration: underline;
 }
 
@@ -3691,7 +3690,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #007bff;
+  background-color: #6f23ff;
 }
 
 /* line 160, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_dropdown.scss */
@@ -4098,25 +4097,25 @@ input[type="button"].btn-block {
 /* line 27, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #007bff;
-  background-color: #007bff;
+  border-color: #6f23ff;
+  background-color: #6f23ff;
 }
 
 /* line 34, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(111, 35, 255, 0.25);
 }
 
 /* line 43, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #80bdff;
+  border-color: #c2a3ff;
 }
 
 /* line 47, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
   color: #fff;
-  background-color: #b3d7ff;
-  border-color: #b3d7ff;
+  background-color: #e4d6ff;
+  border-color: #e4d6ff;
 }
 
 /* line 55, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
@@ -4176,8 +4175,8 @@ input[type="button"].btn-block {
 
 /* line 121, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #007bff;
-  background-color: #007bff;
+  border-color: #6f23ff;
+  background-color: #6f23ff;
 }
 
 /* line 126, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
@@ -4187,12 +4186,12 @@ input[type="button"].btn-block {
 
 /* line 132, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(0, 123, 255, 0.5);
+  background-color: rgba(111, 35, 255, 0.5);
 }
 
 /* line 135, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
-  background-color: rgba(0, 123, 255, 0.5);
+  background-color: rgba(111, 35, 255, 0.5);
 }
 
 /* line 146, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
@@ -4207,7 +4206,7 @@ input[type="button"].btn-block {
 
 /* line 157, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(0, 123, 255, 0.5);
+  background-color: rgba(111, 35, 255, 0.5);
 }
 
 /* line 168, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
@@ -4249,7 +4248,7 @@ input[type="button"].btn-block {
 
 /* line 198, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-switch .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(0, 123, 255, 0.5);
+  background-color: rgba(111, 35, 255, 0.5);
 }
 
 /* line 211, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
@@ -4271,9 +4270,9 @@ input[type="button"].btn-block {
 
 /* line 231, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-select:focus {
-  border-color: #80bdff;
+  border-color: #c2a3ff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(128, 189, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(194, 163, 255, 0.5);
 }
 
 /* line 240, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
@@ -4339,8 +4338,8 @@ input[type="button"].btn-block {
 
 /* line 306, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-file-input:focus ~ .custom-file-label {
-  border-color: #80bdff;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  border-color: #c2a3ff;
+  box-shadow: 0 0 0 0.2rem rgba(111, 35, 255, 0.25);
 }
 
 /* line 311, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
@@ -4409,17 +4408,17 @@ input[type="button"].btn-block {
 
 /* line 378, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(111, 35, 255, 0.25);
 }
 
 /* line 379, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(111, 35, 255, 0.25);
 }
 
 /* line 380, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(111, 35, 255, 0.25);
 }
 
 /* line 383, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
@@ -4432,7 +4431,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #007bff;
+  background-color: #6f23ff;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4448,7 +4447,7 @@ input[type="button"].btn-block {
 
 /* line 398, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-range::-webkit-slider-thumb:active {
-  background-color: #b3d7ff;
+  background-color: #e4d6ff;
 }
 
 /* line 403, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
@@ -4466,7 +4465,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #007bff;
+  background-color: #6f23ff;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4482,7 +4481,7 @@ input[type="button"].btn-block {
 
 /* line 424, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-range::-moz-range-thumb:active {
-  background-color: #b3d7ff;
+  background-color: #e4d6ff;
 }
 
 /* line 429, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
@@ -4503,7 +4502,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #007bff;
+  background-color: #6f23ff;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4519,7 +4518,7 @@ input[type="button"].btn-block {
 
 /* line 453, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
 .custom-range::-ms-thumb:active {
-  background-color: #b3d7ff;
+  background-color: #e4d6ff;
 }
 
 /* line 458, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_custom-forms.scss */
@@ -4667,7 +4666,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: #6f23ff;
 }
 
 /* line 94, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_nav.scss */
@@ -5494,7 +5493,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #6f23ff;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -5502,7 +5501,7 @@ input[type="button"].btn-block {
 /* line 17, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_pagination.scss */
 .page-link:hover {
   z-index: 2;
-  color: #0056b3;
+  color: #4a00d6;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -5512,7 +5511,7 @@ input[type="button"].btn-block {
 .page-link:focus {
   z-index: 2;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(111, 35, 255, 0.25);
 }
 
 /* line 32, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_pagination.scss */
@@ -5537,8 +5536,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #6f23ff;
+  border-color: #6f23ff;
 }
 
 /* line 57, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_pagination.scss */
@@ -5938,7 +5937,7 @@ a.badge-dark:hover, a.badge-dark:focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #007bff;
+  background-color: #6f23ff;
   transition: width 0.6s ease;
 }
 
@@ -6039,8 +6038,8 @@ a.badge-dark:hover, a.badge-dark:focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #6f23ff;
+  border-color: #6f23ff;
 }
 
 /* line 89, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/_list-group.scss */
@@ -7661,26 +7660,6 @@ button.bg-dark:focus {
   width: 100%;
   height: 100%;
   border: 0;
-}
-
-/* line 35, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/utilities/_embed.scss */
-.embed-responsive-21by9::before {
-  padding-top: 42.85714%;
-}
-
-/* line 35, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/utilities/_embed.scss */
-.embed-responsive-16by9::before {
-  padding-top: 56.25%;
-}
-
-/* line 35, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/utilities/_embed.scss */
-.embed-responsive-3by4::before {
-  padding-top: 133.33333%;
-}
-
-/* line 35, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/utilities/_embed.scss */
-.embed-responsive-1by1::before {
-  padding-top: 100%;
 }
 
 /* line 35, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/bootstrap/scss/utilities/_embed.scss */
@@ -11330,7 +11309,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* ----------- custom font import  ------------ */
-/* ------------ Self-stylying -------------- */
+/* ------------ Self-styling -------------- */
 /* line 1, ../../../../../Users/kelvin/projects/web/clone-microverse/assets/scss/_style.scss */
 body {
   font-family: "Montserrat", sans-serif;
